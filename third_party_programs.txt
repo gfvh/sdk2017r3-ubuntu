@@ -1,0 +1,283 @@
+The following materials are defined as "Third Party Programs" and governed by separate license agreements:
+
+Intel(R) Media Server Studio 2017 R3 - SDK:
+
+Files provided under a BSD-3 Clause:
+<SDKInstallDir>/opensource/mfx_dispatch/include/*
+<SDKInstallDir>/opensource/mfx_dispatch/src/*
+<SDKInstallDir>/include/*
+
+
+Intel(R) Media Server Studio 2017 R3 - Graphics Driver:
+
+Files provided under a GPL license
+<SDKInstallDir>/opensource/libdrm/*
+<SDKInstallDir>/opensource/libva/*
+<SDKInstallDir>/opensource/patches/kmd/*
+contents of drm-utils*.rpm, libdrm*.rpm, libkms*.rpm, libkms*.rpm 
+
+Files provided under a MIT license
+contents of libva*.rpm, vaapi*.rpm
+
+Intel(R) OpenCL Driver for Intel Iris and HD Graphics for Linux:
+
+Linux kernel mode driver patches are licensed under the MIT License.
+## kernel patches
+<OCLDriverInstallDir>/kernel-4.4-xcode.patch
+<OCLDriverInstallDir>/kernel-4.7.patch
+
+Files provided under a Khronos license
+## opencl headers
+<OCLDriverInstallDir>/include/CL/cl.h
+<OCLDriverInstallDir>/include/CL/cl.hpp
+<OCLDriverInstallDir>/include/CL/cl_ext.h
+<OCLDriverInstallDir>/include/CL/cl_gl.h
+<OCLDriverInstallDir>/include/CL/cl_gl_ext.h
+<OCLDriverInstallDir>/include/CL/cl_platform.h
+<OCLDriverInstallDir>/include/CL/opencl.h
+<OCLDriverInstallDir>/include/CL/va_ext.h
+## icd lib
+<OCLDriverInstallDir>/libOpenCL.so.1
+<OCLDriverInstallDir>/libOpenCL.so
+
+Files provided which use the LLVM Release License
+<OCLDriverInstallDir>/libigdfcl.so
+<OCLDriverInstallDir>/libigdmcl.so
+<OCLDriverInstallDir>/libcommon_clang.so
+
+
+Intel(R) Media Server Studio 2017 R3 - Samples:
+
+Files provided under a BSD-3 Clause:
+<SDKInstallDir>/builder/*
+<SDKInstallDir>/samples/*
+
+
+Intel(R) Media Server Studio 2017 R3 - SDK for OpenCL(TM) Applications:
+
+<InstallationFolder>/lib64/libboost_filesystem.so
+<InstallationFolder>/lib64/libboost_system.so.1.52.0
+<InstallationFolder>/lib64/libboost_date_time.so
+<InstallationFolder>/lib64/libboost_date_time.so.1.52.0
+<InstallationFolder>/lib64/libboost_regex.so
+<InstallationFolder>/lib64/libboost_regex.so.1.52.0
+<InstallationFolder>/lib64/libboost_signals.so
+<InstallationFolder>/lib64/libboost_signals.so.1.52.0
+<InstallationFolder>/lib64/libboost_signals.so
+<InstallationFolder>/lib64/libQtCore.so.4
+<InstallationFolder>/lib64/libQtCore.so.4.8.5
+<InstallationFolder>/lib64/libQtGui.so.4
+<InstallationFolder>/lib64/libQtGui.so.4.8.5
+
+
+==============================================================================
+Third Party Notices
+==============================================================================
+
+This document contains third party intellectual property (IP) notices for the
+"Software". Certain license notices may appear in other parts of the product
+distribution in accordance with the license requirement.
+
+Third Party trademarks are the property of their respective owners.
+
+OpenCL and the OpenCL logo are trademarks of Apple Inc.
+
+==============================================================================
+Kernel Patches License
+==============================================================================
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+==============================================================================
+LLVM Release License
+==============================================================================
+
+University of Illinois/NCSA
+Open Source License
+
+Copyright (c) 2003-2014 University of Illinois at Urbana-Champaign.
+All rights reserved.
+
+Developed by:
+    LLVM Team
+    University of Illinois at Urbana-Champaign
+    http://llvm.org
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal with
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+    * Redistributions of source code must retain the above copyright notice,
+      this list of conditions and the following disclaimers.
+
+    * Redistributions in binary form must reproduce the above copyright notice,
+      this list of conditions and the following disclaimers in the
+      documentation and/or other materials provided with the distribution.
+
+    * Neither the names of the LLVM Team, University of Illinois at
+      Urbana-Champaign, nor the names of its contributors may be used to
+      endorse or promote products derived from this Software without specific
+      prior written permission.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE
+SOFTWARE.
+
+==============================================================================
+Copyrights and Licenses for Third Party Software Distributed with LLVM:
+==============================================================================
+
+The LLVM software contains code written by third parties.  Such software will
+have its own individual LICENSE.TXT file in the directory in which it appears.
+This file will describe the copyrights, license, and restrictions which apply to
+that code.
+
+The disclaimer of warranty in the University of Illinois Open Source License
+applies to all code in the LLVM Distribution, and nothing in any of the other
+licenses gives permission to use the names of the LLVM Team or the University of
+Illinois to endorse or promote products derived from this Software.
+
+The following pieces of software have additional or alternate copyrights,
+licenses, and/or restrictions:
+
+Program             Directory
+-------             ---------
+Autoconf            llvm/autoconf
+                    llvm/projects/ModuleMaker/autoconf
+Google Test         llvm/utils/unittest/googletest
+OpenBSD regex       llvm/lib/Support/{reg*, COPYRIGHT.regex}
+pyyaml tests        llvm/test/YAMLParser/{*.data, LICENSE.TXT}
+ARM contributions   llvm/lib/Target/ARM/LICENSE.TXT
+md5 contributions   llvm/lib/Support/MD5.cpp llvm/include/llvm/Support/MD5.h
+
+
+===============================================================================
+Khronos License
+===============================================================================
+
+Copyright (c) 2007 The Khronos Group Inc. 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and /or associated documentation files (the "Materials "), to deal
+in the Materials without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Materials, and to permit persons to whom the Materials are furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Materials.
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+
+===============================================================================
+libdrm License
+===============================================================================
+
+Copyright (c) 1998-2000 Precision Insight, Inc., Cedar Park, Texas.
+Copyright (c) 1998-2003 VIA Technologies, Inc. All Rights Reserved.
+Copyright (c) 1999 Wittawat Yamwong
+Copyright (c) 2000 Gareth Hughes
+Copyright (c) 2000 VA Linux Systems, Inc.
+Copyright (c) 2001-2003 S3 Graphics, Inc. All Rights Reserved.
+Copyright (c) 2002 Frank C. Earl
+Copyright (c) 2002-2003,2006-2008 Tungsten Graphics, Inc., Cedar Park, Texas.
+Copyright (c) 2002-2003 Leif Delgass
+Copyright (c) 2004 Felix Kuehling
+Copyright (c) 2005 Adam Jackson.
+Copyright (c) 2005 Eric Anholt
+Copyright (c) 2005 Stephane Marchesin.
+Copyright (c) 2007-2012 Intel Corporation
+Copyright (c) 2007-2014 Red Hat Inc.
+Copyright (c) 2007-2008 Dave Airlie <airlied@linux.ie>
+Copyright (c) 2007-2008 Jakob Bornecrantz <wallbraker@gmail.com>
+Copyright (c) 2008 Nicolai Haehnle
+Copyright (c) 2009-2013 Samsung Electronics Co., Ltd.
+Copyright (c) 2009 VMware, Inc., Palo Alto, CA., USA
+Copyright (c) 2008,2010 Jerome Glisse <glisse@freedesktop.org>
+Copyright (c) 2011 Texas Instruments, Inc
+Copyright (c) 2012,2013 Rob Clark <robclark@freedesktop.org>
+Copyright (c) 2012, 2013 Thierry Reding
+Copyright (c) 2012-2014, NVIDIA CORPORATION.  All rights reserved.
+Copyright (c) 2013 Erik Faye-Lund
+Copyright (c) 2015 Canonical Ltd. (Maarten Lankhorst)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sub license, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL PRECISION
+INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+===============================================================================
+libva License
+===============================================================================
+
+Copyright (c) 1998-1999 Precision Insight, Inc., Cedar Park, Texas.
+Copyright (c) 2000 VA Linux Systems, Inc.
+Copyright (c) 2003,2006 Tungsten Graphics, Inc., Cedar Park, Texas.
+Copyright (c) 2006 Luc Saillard <luc@saillard.org>
+Copyright (c) 2007,2008 Red Hat, Inc.
+Copyright (c) 2008 NVIDIA, Corporation
+Copyright (c) 2008-2011 Kristian Høgsberg
+Copyright (C) 2009,2010 Splitted-Desktop Systems. All Rights Reserved.
+Copyright (c) 2007-2014 Intel Corporation. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sub license, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice (including the next
+paragraph) shall be included in all copies or substantial portions of the
+Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL PRECISION
+INSIGHT AND/OR ITS SUPPLIERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

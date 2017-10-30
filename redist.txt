@@ -1,0 +1,54 @@
+The following materials are defined as 'Redistributables' and are subject
+to the terms and conditions of the End User License Agreement
+YOU MAY NOT REDISTRIBUTE THESE MATERIALS UNDER AN EVALUATION LICENSE
+
+Intel(R) Media Server Studio 2017 R3 - SDK:
+libmfxhw64-p.so.*
+libmfxsw64-p.so.*
+libmfx.a
+libmfx_h264la_hw64.so
+libmfx_vp8d_hw64.so
+libmfx_hevcd_hw64.so
+libmfx_hevce_hw64.so
+plugins.cfg
+
+Intel(R) Media Server Studio 2017 R3 - Graphics Driver:
+igfxcmjit64.so.*
+igfxcmrt64.so.*
+iHD_drv_video.so
+
+Intel(R) OpenCL Driver for Intel Iris and HD Graphics for Linux:
+## gpu libs
+igdclbif.bin
+libIntelOpenCL.so
+libigdbcl.so
+libigdrcl.so
+libigdccl.so
+libiga64.so
+libmd.so
+
+## cpu libs
+__ocl_svml_e9.so
+__ocl_svml_h8.so
+__ocl_svml_l9.so
+clbltfnshared.rtl
+clbltfne9.rtl
+clbltfne9_img_cbk.o
+clbltfne9_img_cbk.rtl
+clbltfnh8.rtl
+clbltfnh8_img_cbk.o
+clbltfnh8_img_cbk.rtl
+clbltfnl9.rtl
+clbltfnl9_img_cbk.o
+clbltfnl9_img_cbk.rtl
+libcl_logger.so
+libclang_compiler.so
+libcpu_device.so
+libintelocl.so
+libOclCpuBackEnd.so
+libtask_executor.so
+libtbb.so
+libtbb.so.2
+libtbbmalloc.so
+libtbbmalloc.so.2
+
